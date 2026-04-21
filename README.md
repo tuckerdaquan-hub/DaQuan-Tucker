@@ -15,7 +15,7 @@ My journey in technology has led me to develop a passion for cybersecurity, and 
 
 | Lab | Platform | Focus | Key Skills | Docs |
 |---|---|---|---|---|
-| [Linux Fundamentals](#linux-fundamentals) | TryHackMe | Linux OS & CLI | Navigation, permissions, processes, cron, HTTP transfer | [README](./Linux_README.md) |
+| [Linux Fundamentals](#linux-fundamentals) | TryHackMe | Linux OS & CLI | Navigation, permissions, processes, cron, HTTP transfer | [README][(./Linux_README.md)](https://github.com/tuckerdaquan-hub/Linux-Lab/tree/main) |
 | [Windows Fundamentals](#windows-fundamentals) | TryHackMe | Windows OS & Admin | NTFS, Event Viewer, Resource Monitor, netstat, SSM Agent | [README](./Windows_README.md) |
 | [Lab 1 — IAM](#lab-1--iam) | AWS | Identity & access | Users, groups, roles, policy JSON, least privilege | [README](./IAM_README.md) |
 | [Lab 2 — EC2 + VPC](#lab-2--ec2--vpc) | AWS | Networking & compute | VPC, subnets, IGW, security groups, User Data | [README](./EC2_VPC_README.md) |
