@@ -26,7 +26,7 @@ My journey in technology has led me to develop a passion for cybersecurity, and 
 
 ## Linux Fundamentals
 
-**[→ Full README][(./Linux_README.md)](https://github.com/tuckerdaquan-hub/Linux-Lab/tree/main)**
+**[→ Full README](https://github.com/tuckerdaquan-hub/Linux-Lab/tree/main)**
 
 **What I did:** Filesystem navigation with `ls`, `cd`, `pwd`, `find`. File operations with `touch`, `mv`, `mkdir`. Read permission strings with `ls -lh`, switched users with `su`, changed permissions with `chmod`. Edited files in `nano`. Ran a Python HTTP server on one machine and used `wget` to download from it on a separate machine. Found hidden dotfiles with `ls -a`. Monitored processes with `ps` and `top`. Configured `crontab` with `@reboot`.
 
@@ -42,7 +42,7 @@ My journey in technology has led me to develop a passion for cybersecurity, and 
 
 ## Lab 1 — IAM
 
-**[→ Full README][(./IAM_README.md)](https://github.com/tuckerdaquan-hub/IAM-Polices/tree/main)**
+**[→ Full README](https://github.com/tuckerdaquan-hub/IAM-Polices/tree/main)**
 
 **What I did:** Configured `EC2-Admin`, `EC2-Support`, and `S3-Support` groups with scoped policies, assigned users, and validated denials by logging in as restricted users. `user-2` (EC2-Support) was blocked from `ec2:StopInstances` — the full ARN and blocked action visible in the error.
 
