@@ -17,7 +17,7 @@ My journey in technology has led me to develop a passion for cybersecurity, and 
 |---|---|---|---|---|
 | [Linux Fundamentals](#linux-fundamentals) | TryHackMe | Linux OS & CLI | Navigation, permissions, processes, cron, HTTP transfer | [README][(./Linux_README.md)](https://github.com/tuckerdaquan-hub/Linux-Lab/tree/main) |
 | [Windows Fundamentals](#windows-fundamentals) | TryHackMe | Windows OS & Admin | NTFS, Event Viewer, Resource Monitor, netstat, SSM Agent | [README][(./Windows_README.md)](https://github.com/tuckerdaquan-hub/Windows-Lab/tree/main) |
-| [Lab 1 — IAM](#lab-1--iam) | AWS | Identity & access | Users, groups, roles, policy JSON, least privilege | [README](./IAM_README.md) |
+| [Lab 1 — IAM][(#lab-1--iam)](https://github.com/tuckerdaquan-hub/IAM-Polices/tree/main) | AWS | Identity & access | Users, groups, roles, policy JSON, least privilege | [README](./IAM_README.md) |
 | [Lab 2 — EC2 + VPC](#lab-2--ec2--vpc) | AWS | Networking & compute | VPC, subnets, IGW, security groups, User Data | [README](./EC2_VPC_README.md) |
 | [Lab 3 — S3 + DynamoDB](#lab-3--s3--dynamodb) | AWS | Storage & database | S3, DynamoDB, bucket policies, service integration | [README](./S3_DynamoDB_README.md) |
 | [Lab 4 — Auto Scaling](#lab-4--auto-scaling--high-availability) | AWS | High availability | ALB, Auto Scaling Groups, Launch Templates, multi-AZ | [README](./README.md) |
@@ -34,7 +34,7 @@ My journey in technology has led me to develop a passion for cybersecurity, and 
 
 ## Windows Fundamentals
 
-**[→ Full README](./Windows_README.md)**
+**[→ Full README](https://github.com/tuckerdaquan-hub/Windows-Lab/tree/main)**
 
 **What I did:** Read NTFS permissions from `C:\Program Files` Security tab. Managed Administrator vs Standard User accounts. Explored `msconfig` startup modes and tools. Navigated System Properties Advanced tab (environment variables, performance, startup/recovery). Used Computer Management for Task Scheduler (created a basic task) and Event Viewer (Security log with 100,063 entries). Examined Resource Monitor across CPU, Memory, and Network tabs — identified `ssm-agent-worker.exe` as the AWS SSM Agent. Ran `whoami`, `ipconfig`, and `netstat` from an elevated CMD prompt — confirmed `ec2.internal` DNS suffix and live RDP + SSM connections. Explored Windows Security and Defender Firewall domain/private/public profiles.
 
@@ -42,7 +42,7 @@ My journey in technology has led me to develop a passion for cybersecurity, and 
 
 ## Lab 1 — IAM
 
-**[→ Full README](./IAM_README.md)**
+**[→ Full README][(./IAM_README.md)](https://github.com/tuckerdaquan-hub/IAM-Polices/tree/main)**
 
 **What I did:** Configured `EC2-Admin`, `EC2-Support`, and `S3-Support` groups with scoped policies, assigned users, and validated denials by logging in as restricted users. `user-2` (EC2-Support) was blocked from `ec2:StopInstances` — the full ARN and blocked action visible in the error.
 
