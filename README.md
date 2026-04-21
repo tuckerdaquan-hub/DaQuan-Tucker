@@ -20,7 +20,7 @@ My journey in technology has led me to develop a passion for cybersecurity, and 
 | Lab 1 — IAM | AWS | Identity & access | Users, groups, roles, policy JSON, least privilege | [README](https://github.com/tuckerdaquan-hub/IAM-Polices/tree/main) |
 | Lab 2 — EC2 + VPC | AWS | Networking & compute | VPC, subnets, IGW, security groups, User Data | [README](https://github.com/tuckerdaquan-hub/EC2-VCP-Lab/tree/main) |
 | Lab 3 — S3 + DynamoDB | AWS | Storage & database | S3, DynamoDB, bucket policies, service integration | [README](https://github.com/tuckerdaquan-hub/S3-DynamoDB-Lab/tree/main) |
-| Lab 4 — Auto Scaling | AWS | High availability | ALB, Auto Scaling Groups, Launch Templates, multi-AZ | [README] |
+| Lab 4 — Auto Scaling | AWS | High availability | ALB, Auto Scaling Groups, Launch Templates, multi-AZ | [README](https://github.com/tuckerdaquan-hub/Auto-Scaling-Lab/tree/main) |
 
 ---
 
@@ -72,7 +72,7 @@ My journey in technology has led me to develop a passion for cybersecurity, and 
 
 ## Lab 4 — Auto Scaling & High Availability
 
-**[→ Full README](./README.md)**
+**[→ Full README](https://github.com/tuckerdaquan-hub/Auto-Scaling-Lab/tree/main)**
 
 **What I did:** Built Target Group, ALB, Launch Template, and Auto Scaling Group across two AZs. Stress-tested the app and confirmed a second EC2 instance launched automatically with a different Instance ID.
 
@@ -83,10 +83,6 @@ My journey in technology has led me to develop a passion for cybersecurity, and 
 ## What I've Done
 
 > "I've built and can operate a complete cloud environment at every layer. At the OS level I'm comfortable in both Linux and Windows — I can navigate filesystems, read permission strings, monitor processes, run networking diagnostics, and interpret what the output tells me about the system. In Linux I understand cron, dotfiles, and inter-machine file transfer. In Windows I can read Event Viewer Security logs, identify processes in Resource Monitor including the AWS SSM Agent, and troubleshoot with ipconfig and netstat from an elevated prompt. On top of that OS foundation I've built a full AWS stack: secured with IAM least-privilege policies, networked with a custom VPC and S3 VPC endpoint, backed by DynamoDB and S3 with resource-based access policies, and made resilient with an Application Load Balancer and Auto Scaling Group I validated with a live stress test. Every layer from the OS up to the cloud infrastructure."
-
----
-
-## Tools
 
 ---
 
