@@ -16,11 +16,11 @@ My journey in technology has led me to develop a passion for cybersecurity, and 
 | Lab | Platform | Focus | Key Skills | Docs |
 |---|---|---|---|---|
 | Linux Fundamentals | TryHackMe | Linux OS & CLI | Navigation, permissions, processes, cron, HTTP transfer | [README](https://github.com/tuckerdaquan-hub/Linux-Lab/tree/main) |
-| Windows Fundamentals | TryHackMe | Windows OS & Admin | NTFS, Event Viewer, Resource Monitor, netstat, SSM Agent | [README][(./Windows_README.md)](https://github.com/tuckerdaquan-hub/Windows-Lab/tree/main) |
+| Windows Fundamentals | TryHackMe | Windows OS & Admin | NTFS, Event Viewer, Resource Monitor, netstat, SSM Agent | [README](https://github.com/tuckerdaquan-hub/Windows-Lab/tree/main) |
 | Lab 1 — IAM | AWS | Identity & access | Users, groups, roles, policy JSON, least privilege | [README](https://github.com/tuckerdaquan-hub/IAM-Polices/tree/main) |
-| [Lab 2 — EC2 + VPC](#lab-2--ec2--vpc) | AWS | Networking & compute | VPC, subnets, IGW, security groups, User Data | [README](./EC2_VPC_README.md) |
-| [Lab 3 — S3 + DynamoDB](#lab-3--s3--dynamodb) | AWS | Storage & database | S3, DynamoDB, bucket policies, service integration | [README](./S3_DynamoDB_README.md) |
-| [Lab 4 — Auto Scaling](#lab-4--auto-scaling--high-availability) | AWS | High availability | ALB, Auto Scaling Groups, Launch Templates, multi-AZ | [README](./README.md) |
+| Lab 2 — EC2 + VPC | AWS | Networking & compute | VPC, subnets, IGW, security groups, User Data | [README] |
+| Lab 3 — S3 + DynamoDB | AWS | Storage & database | S3, DynamoDB, bucket policies, service integration | [README] |
+| Lab 4 — Auto Scaling | AWS | High availability | ALB, Auto Scaling Groups, Launch Templates, multi-AZ | [README] |
 
 ---
 
