@@ -1,123 +1,89 @@
+# Hello, I'm DaQuan
+
 ---
-layout: default
+
+I'm a self-starter with a profound interest in technology and dedicated to solving complex problems. 
+
+--- 
+## Objective
+
+My journey in technology has led me to develop a passion for cybersecurity, and I eager to transition into the field, specifically aiming to work my way up to be in cloud security.
+
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## Labs at a Glance
 
-[Link to another page](./another-page.html).
+| Lab | Platform | Focus | Key Skills | Docs |
+|---|---|---|---|---|
+| Linux Fundamentals | TryHackMe | Linux OS & CLI | Navigation, permissions, processes, cron, HTTP transfer | [README](https://github.com/tuckerdaquan-hub/Linux-Lab/tree/main) |
+| Windows Fundamentals | TryHackMe | Windows OS & Admin | NTFS, Event Viewer, Resource Monitor, netstat, SSM Agent | [README](https://github.com/tuckerdaquan-hub/Windows-Lab/tree/main) |
+| Lab 1 — IAM | AWS | Identity & access | Users, groups, roles, policy JSON, least privilege | [README](https://github.com/tuckerdaquan-hub/IAM-Polices/tree/main) |
+| Lab 2 — EC2 + VPC | AWS | Networking & compute | VPC, subnets, IGW, security groups, User Data | [README](https://github.com/tuckerdaquan-hub/EC2-VCP-Lab/tree/main) |
+| Lab 3 — S3 + DynamoDB | AWS | Storage & database | S3, DynamoDB, bucket policies, service integration | [README](https://github.com/tuckerdaquan-hub/S3-DynamoDB-Lab/tree/main) |
+| Lab 4 — Auto Scaling | AWS | High availability | ALB, Auto Scaling Groups, Launch Templates, multi-AZ | [README](https://github.com/tuckerdaquan-hub/Auto-Scaling-Lab/tree/main) |
 
-There should be whitespace between paragraphs.
+---
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+## Linux Fundamentals
 
-# Header 1
+**[→ Full README](https://github.com/tuckerdaquan-hub/Linux-Lab/tree/main)**
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+**What I did:** Filesystem navigation with `ls`, `cd`, `pwd`, `find`. File operations with `touch`, `mv`, `mkdir`. Read permission strings with `ls -lh`, switched users with `su`, changed permissions with `chmod`. Edited files in `nano`. Ran a Python HTTP server on one machine and used `wget` to download from it on a separate machine. Found hidden dotfiles with `ls -a`. Monitored processes with `ps` and `top`. Configured `crontab` with `@reboot`.
 
-## Header 2
+---
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Windows Fundamentals
 
-### Header 3
+**[→ Full README](https://github.com/tuckerdaquan-hub/Windows-Lab/tree/main)**
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+**What I did:** Read NTFS permissions from `C:\Program Files` Security tab. Managed Administrator vs Standard User accounts. Explored `msconfig` startup modes and tools. Navigated System Properties Advanced tab (environment variables, performance, startup/recovery). Used Computer Management for Task Scheduler (created a basic task) and Event Viewer (Security log with 100,063 entries). Examined Resource Monitor across CPU, Memory, and Network tabs — identified `ssm-agent-worker.exe` as the AWS SSM Agent. Ran `whoami`, `ipconfig`, and `netstat` from an elevated CMD prompt — confirmed `ec2.internal` DNS suffix and live RDP + SSM connections. Explored Windows Security and Defender Firewall domain/private/public profiles.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+---
 
-#### Header 4
+## Lab 1 — IAM
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+**[→ Full README](https://github.com/tuckerdaquan-hub/IAM-Polices/tree/main)**
 
-##### Header 5
+**What I did:** Configured `EC2-Admin`, `EC2-Support`, and `S3-Support` groups with scoped policies, assigned users, and validated denials by logging in as restricted users. `user-2` (EC2-Support) was blocked from `ec2:StopInstances` — the full ARN and blocked action visible in the error.
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+**Key concepts:** Users · Groups · Roles · Policy JSON · Least privilege · Default deny · AWS managed vs customer managed policies
 
-###### Header 6
+---
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+## Lab 2 — EC2 + VPC
 
-### There's a horizontal rule below this.
+**[→ Full README](https://github.com/tuckerdaquan-hub/EC2-VCP-Lab/tree/main)**
 
-* * *
+**What I did:** Explored VPC with CIDR `10.10.0.0/16`, two public subnets, IGW, S3 VPC endpoint, and scoped outbound security group rules. Launched EC2 (Amazon Linux 2023, t3.micro) with User Data that installs Node.js and deploys the app from S3 on first boot.
 
-### Here is an unordered list:
+**Key concepts:** VPC · CIDR · Subnets · IGW · Route tables · Security groups · S3 VPC Endpoint · AMI · User Data · IMDS · Instance profiles
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+---
 
-### And an ordered list:
+## Lab 3 — S3 + DynamoDB
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+**[→ Full README](https://github.com/tuckerdaquan-hub/S3-DynamoDB-Lab/tree/main)**
 
-### And a nested list:
+**What I did:** Created S3 bucket, wrote JSON bucket policy scoping access to `EmployeeDirectoryAppRole` ARN, uploaded 10 photos. Created DynamoDB `Employees` table with partition key `id`, inserted records with `photo` attribute referencing S3 keys. Verified end-to-end data flow.
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+**Key concepts:** S3 · Bucket policies · Resource-based vs identity-based policies · DynamoDB · Partition keys · Schemaless NoSQL · Service integration patterns
 
-### Small image
+---
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+## Lab 4 — Auto Scaling & High Availability
 
-### Large image
+**[→ Full README](https://github.com/tuckerdaquan-hub/Auto-Scaling-Lab/tree/main)**
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+**What I did:** Built Target Group, ALB, Launch Template, and Auto Scaling Group across two AZs. Stress-tested the app and confirmed a second EC2 instance launched automatically with a different Instance ID.
 
+**Key concepts:** ALB · Target groups · Launch Templates · Auto Scaling Groups · Health checks · Multi-AZ · Scaling policies
 
-### Definition lists can be used with HTML syntax.
+---
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+## What I've Done
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+> "I've built and can operate a complete cloud environment at every layer. At the OS level I'm comfortable in both Linux and Windows — I can navigate filesystems, read permission strings, monitor processes, run networking diagnostics, and interpret what the output tells me about the system. In Linux I understand cron, dotfiles, and inter-machine file transfer. In Windows I can read Event Viewer Security logs, identify processes in Resource Monitor including the AWS SSM Agent, and troubleshoot with ipconfig and netstat from an elevated prompt. On top of that OS foundation I've built a full AWS stack: secured with IAM least-privilege policies, networked with a custom VPC and S3 VPC endpoint, backed by DynamoDB and S3 with resource-based access policies, and made resilient with an Application Load Balancer and Auto Scaling Group I validated with a live stress test. Every layer from the OS up to the cloud infrastructure."
 
-```
-The final element.
-```
+---
+
+## Certifications
