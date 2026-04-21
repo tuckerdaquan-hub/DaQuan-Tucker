@@ -19,7 +19,7 @@ My journey in technology has led me to develop a passion for cybersecurity, and 
 | Windows Fundamentals | TryHackMe | Windows OS & Admin | NTFS, Event Viewer, Resource Monitor, netstat, SSM Agent | [README](https://github.com/tuckerdaquan-hub/Windows-Lab/tree/main) |
 | Lab 1 — IAM | AWS | Identity & access | Users, groups, roles, policy JSON, least privilege | [README](https://github.com/tuckerdaquan-hub/IAM-Polices/tree/main) |
 | Lab 2 — EC2 + VPC | AWS | Networking & compute | VPC, subnets, IGW, security groups, User Data | [README] |
-| Lab 3 — S3 + DynamoDB | AWS | Storage & database | S3, DynamoDB, bucket policies, service integration | [README] |
+| Lab 3 — S3 + DynamoDB | AWS | Storage & database | S3, DynamoDB, bucket policies, service integration | [README](https://github.com/tuckerdaquan-hub/S3-DynamoDB-Lab/tree/main) |
 | Lab 4 — Auto Scaling | AWS | High availability | ALB, Auto Scaling Groups, Launch Templates, multi-AZ | [README] |
 
 ---
@@ -62,7 +62,7 @@ My journey in technology has led me to develop a passion for cybersecurity, and 
 
 ## Lab 3 — S3 + DynamoDB
 
-**[→ Full README](./S3_DynamoDB_README.md)**
+**[→ Full README](https://github.com/tuckerdaquan-hub/S3-DynamoDB-Lab/tree/main)**
 
 **What I did:** Created S3 bucket, wrote JSON bucket policy scoping access to `EmployeeDirectoryAppRole` ARN, uploaded 10 photos. Created DynamoDB `Employees` table with partition key `id`, inserted records with `photo` attribute referencing S3 keys. Verified end-to-end data flow.
 
