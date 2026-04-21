@@ -18,7 +18,7 @@ My journey in technology has led me to develop a passion for cybersecurity, and 
 | Linux Fundamentals | TryHackMe | Linux OS & CLI | Navigation, permissions, processes, cron, HTTP transfer | [README](https://github.com/tuckerdaquan-hub/Linux-Lab/tree/main) |
 | Windows Fundamentals | TryHackMe | Windows OS & Admin | NTFS, Event Viewer, Resource Monitor, netstat, SSM Agent | [README](https://github.com/tuckerdaquan-hub/Windows-Lab/tree/main) |
 | Lab 1 — IAM | AWS | Identity & access | Users, groups, roles, policy JSON, least privilege | [README](https://github.com/tuckerdaquan-hub/IAM-Polices/tree/main) |
-| Lab 2 — EC2 + VPC | AWS | Networking & compute | VPC, subnets, IGW, security groups, User Data | [README] |
+| Lab 2 — EC2 + VPC | AWS | Networking & compute | VPC, subnets, IGW, security groups, User Data | [README](https://github.com/tuckerdaquan-hub/EC2-VCP-Lab/tree/main) |
 | Lab 3 — S3 + DynamoDB | AWS | Storage & database | S3, DynamoDB, bucket policies, service integration | [README](https://github.com/tuckerdaquan-hub/S3-DynamoDB-Lab/tree/main) |
 | Lab 4 — Auto Scaling | AWS | High availability | ALB, Auto Scaling Groups, Launch Templates, multi-AZ | [README] |
 
@@ -52,7 +52,7 @@ My journey in technology has led me to develop a passion for cybersecurity, and 
 
 ## Lab 2 — EC2 + VPC
 
-**[→ Full README](./EC2_VPC_README.md)**
+**[→ Full README](https://github.com/tuckerdaquan-hub/EC2-VCP-Lab/tree/main)**
 
 **What I did:** Explored VPC with CIDR `10.10.0.0/16`, two public subnets, IGW, S3 VPC endpoint, and scoped outbound security group rules. Launched EC2 (Amazon Linux 2023, t3.micro) with User Data that installs Node.js and deploys the app from S3 on first boot.
 
