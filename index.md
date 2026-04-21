@@ -2,12 +2,12 @@
 
 ---
 
-I'm a self-starter with a profound interest in technology and dedicated to solving complex problems. 
+I'm a self-starter with a profound interest in technology and dedicated to solving complex problems. I'm transitioning into cloud engineering and have completed 6 hands-on AWS labs building a full production stack — from VPC and IAM through S3, DynamoDB, EC2, and Auto Scaling.
 
 --- 
 ## Objective
 
-My journey in technology has led me to develop a passion for cybersecurity, and I eager to transition into the field, specifically aiming to work my way up to be in cloud security.
+My journey in technology has led me to develop a passion for cybersecurity, and I am eager to transition into the field, specifically aiming to work my way up to be in cloud security.
 
 ---
 
